@@ -1,0 +1,1 @@
+sudo docker build -t three_body_api_server .

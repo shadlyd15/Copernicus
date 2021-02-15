@@ -1,0 +1,1 @@
+sudo docker run -it --net="host" three_body_api_client
