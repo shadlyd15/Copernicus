@@ -506,6 +506,10 @@ cam.add(bodies[0], 'm', 0.0, 50.0, 0.001).listen();
 cam.add(bodies[0].position, 'x', -150.0, 150.0).listen();
 cam.add(bodies[0].position, 'y', -150.0, 150.0).listen();
 cam.add(bodies[0].position, 'z', -150.0, 150.0).listen();
+var velocity = cam.addFolder('Velocity');
+velocity.add(bodies[1].position, 'x', -150.0, 150.0).name("Vx").listen();
+velocity.add(bodies[1].position, 'y', -150.0, 150.0).name("Vy").listen();
+velocity.add(bodies[1].position, 'z', -150.0, 150.0).name("Vz").listen();
 cam.open();
 
 var cam = gui.addFolder('Sun');
@@ -513,6 +517,10 @@ cam.add(bodies[1], 'm', 0.0, 50.0, 0.001).listen();
 cam.add(bodies[1].position, 'x', -150.0, 150.0).listen();
 cam.add(bodies[1].position, 'y', -150.0, 150.0).listen();
 cam.add(bodies[1].position, 'z', -150.0, 150.0).listen();
+var velocity = cam.addFolder('Velocity');
+velocity.add(bodies[1].position, 'x', -150.0, 150.0).name("Vx").listen();
+velocity.add(bodies[1].position, 'y', -150.0, 150.0).name("Vy").listen();
+velocity.add(bodies[1].position, 'z', -150.0, 150.0).name("Vz").listen();
 cam.open();
 
 var cam = gui.addFolder('Mars');
@@ -520,6 +528,10 @@ cam.add(bodies[2], 'm', 0.0, 50.0, 0.001).listen();
 cam.add(bodies[2].position, 'x', -150.0, 150.0).listen();
 cam.add(bodies[2].position, 'y', -150.0, 150.0).listen();
 cam.add(bodies[2].position, 'z', -150.0, 150.0).listen();
+var velocity = cam.addFolder('Velocity');
+velocity.add(bodies[1].position, 'x', -150.0, 150.0).name("Vx").listen();
+velocity.add(bodies[1].position, 'y', -150.0, 150.0).name("Vy").listen();
+velocity.add(bodies[1].position, 'z', -150.0, 150.0).name("Vz").listen();
 cam.open();
 
 var cam = gui.addFolder('Parameters');

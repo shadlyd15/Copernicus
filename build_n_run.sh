@@ -1,1 +1,1 @@
-sudo docker stack rm test && sudo docker-compose build && sudo docker stack deploy -c docker-compose.yml test
+sudo docker-compose build && sudo docker stack deploy -c docker-compose.yml test
