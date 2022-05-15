@@ -17,3 +17,10 @@ The goal of this project is to play with different web technologies.
 ![Gravity](https://github.com/shadlyd15/Gravity/blob/main/screeshots/3.png?raw=true "Gravity")
 ![Gravity](https://github.com/shadlyd15/Gravity/blob/main/screeshots/4.png?raw=true "Gravity")
 ![Gravity](https://github.com/shadlyd15/Gravity/blob/main/screeshots/5.png?raw=true "Gravity")
+
+## Acknowledgements
+ - Planet Textures : https://www.solarsystemscope.com/textures/
+ - Intro Screen : https://unsplash.com/photos/fUnfEz3VLv4
+
+## License
+Licensed under the MIT License.
