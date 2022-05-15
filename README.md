@@ -2,6 +2,8 @@
 A 3D web application to simulate three body problem. 
 The goal of this project is to play with different web technologies.
 
+![Gravity](https://github.com/shadlyd15/Gravity/blob/main/screeshots/1.png?raw=true "Gravity")
+
 ## Technologies Used
 - Docker Swarm
 - Node.js for client API handling
@@ -11,7 +13,6 @@ The goal of this project is to play with different web technologies.
 - MongoDB
 
 ## Screenshots
-![Gravity](https://github.com/shadlyd15/Gravity/blob/main/screeshots/1.png?raw=true "Gravity")
 ![Gravity](https://github.com/shadlyd15/Gravity/blob/main/screeshots/2.png?raw=true "Gravity")
 ![Gravity](https://github.com/shadlyd15/Gravity/blob/main/screeshots/3.png?raw=true "Gravity")
 ![Gravity](https://github.com/shadlyd15/Gravity/blob/main/screeshots/4.png?raw=true "Gravity")
