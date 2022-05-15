@@ -11,4 +11,8 @@ The goal of this project is to play with different web technologies.
 - MongoDB
 
 ## Screenshots
-![Copernicus](https://raw.githubusercontent.com/shadlyd15/three_body_problem/main/Screenshot.png)
+![Gravity](screenshot/1.png "Gravity")
+![Gravity](screenshot/2.png "Gravity")
+![Gravity](screenshot/3.png "Gravity")
+![Gravity](screenshot/4.png "Gravity")
+![Gravity](screenshot/5.png "Gravity")
