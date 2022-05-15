@@ -3,25 +3,26 @@
 <head>
   <meta charset="UTF-8" />
   <title> Home </title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-  <div class="message-box">
-    <h1 id="welcome-message"></h1>
-    <!-- <a href="/private">Three Body Simulator</a> -->
-    <a href="/simulator">Three Body Simulator</a>
+  <div class="center">
+    <a href="/simulator">Gravity</a>
   </div>
 
   <script>
     const req = new XMLHttpRequest();
-    req.onreadystatechange = function () {
-      if (req.readyState == 4 && req.status == 200) {
-        // const user = JSON.parse(req.response).user;
-        // const user = req.response.user;
-        // document.getElementById("welcome-message").innerText = `Welcome ${user.username}!!`;
-      }
-    };
+    // req.onreadystatechange = function () {
+    //   if (req.readyState == 4 && req.status == 200) {
+    //     // const user = JSON.parse(req.response).user;
+    //     // const user = req.response.user;
+    //     // document.getElementById("welcome-message").innerText = `Welcome ${user.username}!!`;
+    //   }
+    // };
     req.open("GET", "http://localhost:3000/user", true);
     req.send();
   </script>

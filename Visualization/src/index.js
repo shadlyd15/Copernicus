@@ -31,8 +31,8 @@ app.use(passport.session());
 const mongoose = require('mongoose');
 const passportLocalMongoose = require('passport-local-mongoose');
 
-mongoose.connect('mongodb://database/MyDatabase',
-// mongoose.connect('mongodb://localhost/MyDatabase',
+// mongoose.connect('mongodb://database/MyDatabase',
+mongoose.connect('mongodb://localhost/MyDatabase',
   { useNewUrlParser: true, useUnifiedTopology: true });
 
 const Schema = mongoose.Schema;
@@ -91,26 +91,6 @@ app.post('/register', (req, res, next) => {
 
     res.redirect('/');
   });
-
-  // passport.authenticate('local',
-  // (err, user, info) => {
-  //   if (err) {
-  //     return next(err);
-  //   }
-
-  //   if (!user) {
-  //     return res.redirect('/login?info=' + info);
-  //   }
-
-  //   req.logIn(user, function(err) {
-  //     if (err) {
-  //       return next(err);
-  //     }
-  //     console.log("Success");
-  //     return res.redirect('/simulator');
-  //   });
-
-  // })(req, res, next);
 });
 
 app.get('/login',
@@ -150,9 +130,3 @@ app.get('/logout',
   res.redirect('/');
 });
 
-// app.get('/logout', function(req, res){
-//   req.logout();
-//   res.redirect('/');
-// });
-
-// UserDetails.register({username:'paul', active: false}, 'paul');

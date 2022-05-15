@@ -13,8 +13,8 @@ from flask_pymongo import PyMongo
 print("Three Body API Server Started .........")
 
 app = Flask(__name__)
-# app.config['MONGO_URI'] = 'mongodb://localhost/MyDatabase'
-app.config['MONGO_URI'] = 'mongodb://database/MyDatabase'
+app.config['MONGO_URI'] = 'mongodb://localhost/MyDatabase'
+# app.config['MONGO_URI'] = 'mongodb://database/MyDatabase'
 mongo = PyMongo(app)
 
 CORS(app)
@@ -148,8 +148,8 @@ def solve():
 @app.route('/API/save_last', methods = ['POST'])
 def save_last():
 	print("++++++++++++++++++++++++++++++++++")
-	# print(">> " + str(request.json))
-	# result = json.loads(request.json)
+	print(">> " + str(request.json))
+	result = json.loads(request.json)
 	presets = mongo.db.presets
 	try:
 		preset_id = presets.insert_one(request.json).inserted_id
@@ -157,6 +157,7 @@ def save_last():
 		return '{"preset_id":"' + str(preset_id) +'"}'
 	except:
 		print('No preset to save')
+	print("Here I am");
 	return '{"error":"1"}'
 
 @app.route('/API/list_presets', methods = ['GET'])
