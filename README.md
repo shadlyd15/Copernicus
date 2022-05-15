@@ -11,8 +11,8 @@ The goal of this project is to play with different web technologies.
 - MongoDB
 
 ## Screenshots
-![Gravity](screenshots/1.png "Gravity")
-![Gravity](screenshots/2.png "Gravity")
-![Gravity](screenshots/3.png "Gravity")
-![Gravity](screenshots/4.png "Gravity")
-![Gravity](screenshots/5.png "Gravity")
+![Gravity](https://github.com/shadlyd15/Gravity/blob/main/screeshots/1.png?raw=true "Gravity")
+![Gravity](https://github.com/shadlyd15/Gravity/blob/main/screeshots/2.png?raw=true "Gravity")
+![Gravity](https://github.com/shadlyd15/Gravity/blob/main/screeshots/3.png?raw=true "Gravity")
+![Gravity](https://github.com/shadlyd15/Gravity/blob/main/screeshots/4.png?raw=true "Gravity")
+![Gravity](https://github.com/shadlyd15/Gravity/blob/main/screeshots/5.png?raw=true "Gravity")
