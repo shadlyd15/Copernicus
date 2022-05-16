@@ -18,6 +18,7 @@ This project was initially done for Semester Project - Virtualization 2 (WS2020 
 ![Gravity](https://github.com/shadlyd15/Gravity/blob/main/screeshots/3.png?raw=true "Gravity")
 ![Gravity](https://github.com/shadlyd15/Gravity/blob/main/screeshots/4.png?raw=true "Gravity")
 ![Gravity](https://github.com/shadlyd15/Gravity/blob/main/screeshots/5.png?raw=true "Gravity")
+![Gravity](https://github.com/shadlyd15/Gravity/blob/main/screeshots/6.png?raw=true "Gravity")
 
 ## Acknowledgements
  - Planet Textures : https://www.solarsystemscope.com/textures/
