@@ -1,6 +1,7 @@
 # Gravity
 A 3D web application to simulate three body problem. 
 The goal of this project is to play with different web technologies.
+This project was initially done for Semester Project - Virtualization 2 (WS2020 / 2021)
 
 ![Gravity](https://github.com/shadlyd15/Gravity/blob/main/screeshots/1.png?raw=true "Gravity")
 
